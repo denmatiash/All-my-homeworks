@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/lato-v20-latin-300.woff2") format("woff2"),
+    url("./fonts/lato-v20-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/lato-v20-latin-700.woff2") format("woff2"),
+    url("./fonts/lato-v20-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/playfair-display-v22-latin-regular.woff2") format("woff2"),
+    url("./fonts/playfair-display-v22-latin-regular.woff") format("woff");
+}
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    max-width: 1600px;
+  }
+
+  
+  .main-content {
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.1);
+    margin: 30px 100px;
+    padding: 80px;
+  }
+  
+  .main-content__wrapper {
+    color: rgba(17, 17, 17, 0.5);
+  }
+  
+  .a-content__title {
+    font-family: "Playfair Display", serif;
+    color: #171717;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .a-content__text::first-letter {
+    font-family: "Playfair Display", serif;
+    margin: 0 20px 0 0;
+    line-height: 65px;
+    color: #171717;
+    font-size: 75px;
+    float: left;
+  }
+  
+  .a-content__text {
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+  .a-content__text__paragraph {
+    margin-top: 20px;
+  }
+  
+  .main-content__tilted {
+    margin-top: 5px;
+  }
+  
+  .a-content__tilted {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .a-content__bracket {
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 46px;
+  }
+  
+  .button {
+    border: 2px solid #eaa258;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+    font-weight: 700;
+    color: #eaa258;
+    margin-top: 25px;
+    font-size: 14px;
+  }
